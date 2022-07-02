@@ -1,0 +1,1 @@
+rsync -auvz --timeout=15 $(git rev-parse --show-toplevel) <remote>:~/;
